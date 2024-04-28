@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(243, 228, 13);
+    font-family: 'Times New Roman', Times, serif;
+}
+.kartyak {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.kartya {
+    width: 400px;
+    height: 600px;
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgb(177, 177, 177);
+    display: inline-block;
+}
+
+#kakkuktojás {
+    background-color: brown;
+}
+
+h2,h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+h4 {
+    text-align: center;
+    font-size: large;
+}
+
+.kartya_kep {
+    width: 100%;
+    border-radius: 1px;
+}
+
+.gomb {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 30%;
+   justify-content: center;
+    text-align: center;
+}
+.gomb hoover {
+    background-color: black;
+    color: bisque;
+}
+
+    @media only screen and (max-width:500px)
+    {
+        .kartya {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+        }
+
+    h3 {
+        display: block;
+    }
+    }
+
+    #eltuno {   
+         display: none;
+ }
+ nav {
+    width: 100%;
+    background: #ffee01;
+}
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover {
+    background: #e91e63;
+}
+ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background: #001f44;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+@media (max-width:768px)
+{
+    .toggle
+    {
+    display: block;
+    }
+
+    ul{
+        width: 100%;
+        display: none;
+    }
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    .active
+    {
+        display: block;
+    }
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(253, 253, 253);
+    margin: 6px 0;
+}
